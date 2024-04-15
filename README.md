@@ -5,5 +5,5 @@ Port needs to be changed too.
 
 <p align="center">
   <img src="https://github.com/AlejoReyna/autoEmailScript/assets/99472437/ae94cb90-3ea9-44ab-9a94-d5a13eaca604" alt="Doge">
-  ###### Code by Alexis Reyna
+
 </p>
