@@ -5,16 +5,16 @@ import getpass
 HOST = "smtp-mail.outlook.com"
 PORT = 587
 
-FROM_EMAIL = "alexisreyna01@outlook.com"
-TO_EMAIL = "alexis.reynasz@uanl.edu.mx"
+#JustFuckingCode!
+# Data of email
+FROM_EMAIL = "sender_email@email.me"
+TO_EMAIL = "receiver_email@email.me"
 PASSWORD = getpass.getpass("Enter password: ")
 
-MESSAGE = """Subject: Mail sent using python
-                Hi, this is a test message.
+# Message
+MESSAGE = """ Here goes the message """
 
-                Thanks.
-                From me, to me."""
-
+# Connection to SMTP lib (using outlook) :)
 smtp = smtplib.SMTP(HOST,PORT)
 
 status_code, response = smtp.ehlo()
